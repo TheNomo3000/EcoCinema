@@ -19,9 +19,7 @@ Route::get('inicio', function (){
     return view('inicio');
 });
 
-Route::get('ofertas', function (){
-    return view('peliculas');
-});
+Route::get('ofertas', 'PeliculasController@index');
 
 Route::get('surgimos',function (){
     return view('Info/ComoSurgimos');
