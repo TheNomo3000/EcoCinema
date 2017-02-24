@@ -1,0 +1,57 @@
+.color{
+    background-color: #8996b8 !important;
+}
+#footer{
+    background-color: black;
+    padding: 20px 0;
+}
+
+#estadistica{
+    margin:0 auto;
+}
+.parrafo{
+    text-align: justify;
+    padding: 40px 0px;
+    font-size: 18px;
+}
+.pelicula{
+    overflow: hidden;
+    background-color: #ade9c1 !important;
+    padding:30px;
+}
+.portada{
+    /*width:130px;*/
+    float:left;
+    /*height:190px;*/
+}
+/*.portada > img{
+    width: 100%;
+    height: 100%;
+}*/
+.sinopsis{
+    float: left;
+    margin-left: 20px;
+    width:80%;
+}
+.sinopsis-texto{
+    padding: 20px;
+}
+.boton-trailer{
+    margin:0 auto;
+}
+#logo{
+    width: 140px;
+}
+.plantilla{
+    background-color: #cae9bb !important;
+    padding:30px;
+}
+.titulo{
+    text-align: center;
+    padding-bottom:5px;
+}
+#bombilla{
+    margin:0 auto;
+    max-width:700px;
+}
+
