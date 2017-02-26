@@ -1,9 +1,70 @@
-.color{
-    background-color: #8996b8 !important;
+/*NavBar*/
+.navbar{
+    box-shadow: 0 0 10px 0.5px darkseagreen;
+    background-color: #cae9bb;
 }
+.nav>li a{
+    color: rgba(36,165,110,0.8)!important;
+}
+.nav>li a:hover, .nav>li a:focus, .open>a:focus, .open>a{
+    color: #249660!important;
+    background-color: rgba(154,185,139,0.8)!important;
+}
+
+.dropdown-menu{
+    background-color: #cae9bb;
+    border-radius: 5px ;
+}
+.divider{
+    background-color: gray!important;
+}
+.dropdown-menu li a:hover{
+    color: #249660!important;
+    background-color: rgba(154,185,139,0.8)!important;
+}
+.dropdown-menu li a{
+    color: rgba(36,165,110,0.8)!important;
+}
+/*********/
+
+/*Home*/
+#slider{
+    margin:0 auto;
+    width:80%;
+    border-radius: 10px;
+}
+#aaaa{
+    font-family: 'Bree Serif', serif;
+}
+/**********************/
+
+/*Peliculas*/
 .pagination{
     margin:0 auto;
 }
+.pelicula{
+    overflow: hidden;
+    background-color: #ade9c1 !important;
+    padding:30px;
+}
+#sinopsis{
+    padding: 0px!important;
+}
+.sinopsis-texto{
+    padding: 20px;
+}
+.btn-trailer{
+    text-align: center;
+}
+.titulo{
+    text-align: center;
+    padding-bottom:5px;
+}
+/*********************************/
+.color{
+    background-color: #8996b8 !important;
+}
+
 #footer{
     background-color: black;
     padding: 20px 0;
@@ -12,49 +73,38 @@
 #estadistica{
     margin:0 auto;
 }
+
 .parrafo{
     text-align: justify;
     padding: 40px 0px;
     font-size: 18px;
 }
-.pelicula{
-    overflow: hidden;
-    background-color: #ade9c1 !important;
-    padding:30px;
-}
-.portada{
-    float:left;
-}
 
-#slider{
-    margin:0 auto;
-    width:70%!important;
-}
-
-.sinopsis{
-    float: left;
-    margin-left: 20px;
-    width:80%;
-}
-.sinopsis-texto{
-    padding: 20px;
-}
-.boton-trailer{
-    margin:0 auto;
-}
 #logo{
     width: 140px;
 }
+
 .plantilla{
-    background-color: #cae9bb !important;
+    background-color: #ade9c1 !important;
     padding:30px;
 }
-.titulo{
-    text-align: center;
-    padding-bottom:5px;
-}
+
 #bombilla{
     margin:0 auto;
     max-width:700px;
 }
 
+@media (max-width: 990px){
+    #sinopsis{
+        margin-top:20px;
+    }
+    .col-md-2{
+        text-align: center;
+    }
+}
+
+@media (max-width:779px) {
+    #slider{
+        width:100%;
+    }
+}

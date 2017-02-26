@@ -1,6 +1,6 @@
 @extends('plantilla')
 @section('titulo')
-    Disfrutar del Cine, cuida el mundo.
+    <div id="aaaa">Disfrutar del Cine, cuida el mundo.</div>
     @stop
 @section('texto')
     <div id="slider" class="carousel slide" data-ride="carousel">
@@ -31,9 +31,7 @@
     </div>
     <br>
     <div class="panel panel-body">
-        <div class="panel panel-item">
-            <p class="text-justify">Somos Ecocinema,una empresa que busca acercar el séptimo arte a las 	localidades que bien no pueden acceder al cine convencional por motivos 	económicos o geográficos , promovemos el medio ambiente ya que la misma 	proyección de la película se realiza con la energía recogida de nuestra 	furgoneta ecológica. Nos desplazamos a las localidades para proyectar las 	películas , disponemos de snacks y bebidas para amenizar la misma.</p>
-        </div>
+        <p class="text-justify">Somos Ecocinema,una empresa que busca acercar el séptimo arte a las 	localidades que bien no pueden acceder al cine convencional por motivos 	económicos o geográficos , promovemos el medio ambiente ya que la misma 	proyección de la película se realiza con la energía recogida de nuestra 	furgoneta ecológica. Nos desplazamos a las localidades para proyectar las 	películas , disponemos de snacks y bebidas para amenizar la misma.</p>
     </div>
 
 @stop

@@ -18,6 +18,7 @@ class CreatePeliculasTable extends Migration
             $table->String('titulo');
             $table->text('contenido');
             $table->smallInteger('anio');
+            $table->string('trailer');
             $table->string('img');
         });
     }
