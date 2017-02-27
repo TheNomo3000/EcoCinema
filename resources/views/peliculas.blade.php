@@ -2,9 +2,9 @@
 @section('contenido')
     <div class="panel panel-body">
         <div class="nav">
-            <form class="navbar-form navbar-right">
+            <form method="get" action="#" class="navbar-form navbar-right" role="search">
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Buscar">
+                    <input type="text" class="form-control" placeholder="Buscar" name="nombre">
                 </div>
                 <button type="submit" class="btn btn-success">Buscar</button>
             </form>

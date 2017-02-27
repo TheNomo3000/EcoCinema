@@ -18,12 +18,13 @@
                     </a>
                 </div>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="http://ecocinema.com">Home</a></li>
-                    <li><a href="http://ecocinema.com/ofertas">Nuestra Oferta</a></li>
-                    <li><a href="http://ecocinema.com/surgimos">Como Surgimos</a></li>
-                    <li><a href="http://ecocinema.com/vision">Nuestra Vision</a></li>
+                    <li><a href="{{route('home')}}">Home</a></li>
+                    <li><a href="{{route('ofertas')}}">Nuestra Oferta</a></li>
+                    <li><a href="{{route('surgimos')}}">Como Surgimos</a></li>
+                    <li><a href="{{route('vision')}}">Nuestra Vision</a></li>
                     <li role="separator" class="divider"></li>
-                    <li><a href="http://ecocinema.com/nosotros">Sobre Nosotros</a></li>
+                    <li><a href="{{route('nosotros')}}">Sobre Nosotros</a></li>
+                    <li><a href="{{route('contacto')}}">Contacto</a></li>
                 </ul>
             </div>
         </nav>
