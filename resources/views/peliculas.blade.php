@@ -1,14 +1,14 @@
 @extends('principal')
 @section('contenido')
     <div class="panel panel-body">
-        <div class="nav">
+        {{-- <div class="nav">
             <form method="get" action="#" class="navbar-form navbar-right" role="search">
                 <div class="form-group">
                     <input type="text" class="form-control" placeholder="Buscar" name="nombre">
                 </div>
                 <button type="submit" class="btn btn-success">Buscar</button>
             </form>
-        </div>
+        </div> --}}
         @foreach($peliculas as $pelicula)
             <div class="panel panel-default pelicula">
                 <div class="col-md-2">

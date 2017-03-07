@@ -8,12 +8,14 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <script type="text/javascript" src="js/script.js"></script>
         <link rel="stylesheet" href="css/Estilo.css">
+
+
     </head>
     <body>
         <nav class="navbar navbar-static-top">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="http://ecocinema.com">
+                    <a class="navbar-brand" href="{{route('home')}}">
                         <img alt="Brand" src="Media/Logo.png" id="logo">
                     </a>
                 </div>

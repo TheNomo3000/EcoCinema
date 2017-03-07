@@ -60,6 +60,10 @@
     text-align: center;
     padding-bottom:5px;
 }
+.contacto{
+    margin-bottom: 20px;
+}
+
 /*********************************/
 .color{
     background-color: #8996b8 !important;
@@ -94,6 +98,13 @@
     max-width:700px;
 }
 
+/*** Text Area Contactos **/
+textarea{
+    resize: none;
+    margin: 0 20px;
+}
+
+/*Medias Queries*/
 @media (max-width: 990px){
     #sinopsis{
         margin-top:20px;

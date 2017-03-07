@@ -21,6 +21,8 @@ Route::resource('ofertas','PeliculasController',[
   ]
 ]);
 
+Route::resource('mail','MailController');
+
 Route::get('contacto',function (){
     return view('contacto');
 })->name('contacto');
